@@ -1,14 +1,15 @@
 #
 # Conditional build:
 # _without_tests - do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	Diff
 Summary:	Text::Diff - Perform diffs on files and record sets
 Summary(pl):	Text::Diff - wyszukiwanie ró¿nic miêdzy plikami i zbiorami rekordów
 Name:		perl-Text-Diff
-Version:	0.34
-Release:	2
+Version:	0.35
+Release:	1
 License:	GPL v2+/Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
