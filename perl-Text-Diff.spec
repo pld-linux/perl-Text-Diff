@@ -13,6 +13,7 @@ Release:	2
 License:	GPL v2+/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	4931662ea353384dec2a54a71b26ee8c
 BuildRequires:	perl-devel >= 5.6
 %if %{?_without_tests:0}%{!?_without_tests:1}
 BuildRequires:	perl-Algorithm-Diff
