@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Text
-%define	pnam	Diff
+%define		pdir	Text
+%define		pnam	Diff
 Summary:	Text::Diff - perform diffs on files and record sets
 Summary(pl):	Text::Diff - wyszukiwanie ró¿nic miêdzy plikami i zbiorami rekordów
 Name:		perl-Text-Diff
