@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	Diff
-Summary:	Text::Diff - Perform diffs on files and record sets
+Summary:	Text::Diff - perform diffs on files and record sets
 Summary(pl):	Text::Diff - wyszukiwanie ró¿nic miêdzy plikami i zbiorami rekordów
 Name:		perl-Text-Diff
 Version:	0.35
