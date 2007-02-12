@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	Diff
 Summary:	Text::Diff - perform diffs on files and record sets
-Summary(pl):	Text::Diff - wyszukiwanie ró¿nic miêdzy plikami i zbiorami rekordów
+Summary(pl.UTF-8):   Text::Diff - wyszukiwanie rÃ³Å¼nic miÄ™dzy plikami i zbiorami rekordÃ³w
 Name:		perl-Text-Diff
 Version:	0.35
 Release:	4
@@ -30,12 +30,12 @@ better integrated with Perl and available on all platforms. It is
 often faster than shelling out to a system's diff executable for small
 files, and generally slower on larger files.
 
-%description -l pl
-Funkcja diff() udostêpnia podstawowy zbiór us³ug podobnych do
-narzêdzia GNU diff. Daleko jej do pe³nej funkcjonalno¶ci GNU diffa,
-ale jest lepiej zintegrowana z Perlem i dostêpna na wszystkich
-platformach. Jest przewa¿nie szybsza ni¿ uruchamianie polecenia
-systemowego w przypadku ma³ych plików, a wolniejsza dla du¿ych plików.
+%description -l pl.UTF-8
+Funkcja diff() udostÄ™pnia podstawowy zbiÃ³r usÅ‚ug podobnych do
+narzÄ™dzia GNU diff. Daleko jej do peÅ‚nej funkcjonalnoÅ›ci GNU diffa,
+ale jest lepiej zintegrowana z Perlem i dostÄ™pna na wszystkich
+platformach. Jest przewaÅ¼nie szybsza niÅ¼ uruchamianie polecenia
+systemowego w przypadku maÅ‚ych plikÃ³w, a wolniejsza dla duÅ¼ych plikÃ³w.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
