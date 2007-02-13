@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	Diff
 Summary:	Text::Diff - perform diffs on files and record sets
-Summary(pl.UTF-8):   Text::Diff - wyszukiwanie różnic między plikami i zbiorami rekordów
+Summary(pl.UTF-8):	Text::Diff - wyszukiwanie różnic między plikami i zbiorami rekordów
 Name:		perl-Text-Diff
 Version:	0.35
 Release:	4
