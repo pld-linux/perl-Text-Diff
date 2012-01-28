@@ -16,7 +16,7 @@ Source0:	http://www.cpan.org/modules/by-module/Text/%{pdir}-%{pnam}-%{version}.t
 # Source0-md5:	30d56e6dd5551ca16b8e16cc7299dc21
 URL:		http://search.cpan.org/dist/Text-Diff/
 %if %{with tests}
-BuildRequires:	perl-Algorithm-Diff
+BuildRequires:	perl-Algorithm-Diff >= 1.19
 %endif
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -58,6 +58,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{perl_vendorlib}/Text/*.pm
+%{perl_vendorlib}/Text/Diff.pm
 %{perl_vendorlib}/Text/Diff
-%{_mandir}/man3/*
+%{_mandir}/man3/Text::Diff*.3pm*
