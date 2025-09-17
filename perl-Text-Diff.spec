@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_without	tests	# do not perform "make test"
+%bcond_without	tests	# unit tests
 #
 %define		pdir	Text
 %define		pnam	Diff
@@ -12,9 +12,9 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Text/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	https://www.cpan.org/modules/by-module/Text/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	edf57b6189f7651a6be454062a4e6d9c
-URL:		https://metacpan.org/release/Text-Diff
+URL:		https://metacpan.org/dist/Text-Diff
 %if %{with tests}
 BuildRequires:	perl-Algorithm-Diff >= 1.19
 %endif
