@@ -7,13 +7,13 @@
 Summary:	Text::Diff - perform diffs on files and record sets
 Summary(pl.UTF-8):	Text::Diff - wyszukiwanie różnic między plikami i zbiorami rekordów
 Name:		perl-Text-Diff
-Version:	1.45
+Version:	1.46
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	https://www.cpan.org/modules/by-module/Text/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	edf57b6189f7651a6be454062a4e6d9c
+# Source0-md5:	d397c119419ec46a987f034c21944154
 URL:		https://metacpan.org/dist/Text-Diff
 %if %{with tests}
 BuildRequires:	perl-Algorithm-Diff >= 1.19
