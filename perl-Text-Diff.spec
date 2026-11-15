@@ -12,7 +12,7 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	https://www.cpan.org/modules/by-module/Text/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	https://www.cpan.org/modules/by-module/Text/NEILB/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	d397c119419ec46a987f034c21944154
 URL:		https://metacpan.org/dist/Text-Diff
 %if %{with tests}
